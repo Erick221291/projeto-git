@@ -1,1 +1,3 @@
 Olá, revisão git.
+criei um repositorio no github, e configurei o git no meu repositorio local,
+e sube o arquivo para o repositorio remoto.
