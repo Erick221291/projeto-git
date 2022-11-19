@@ -1,3 +1,14 @@
 Olá, revisão git.
 criei um repositorio no github, e configurei o git no meu repositorio local,
 e sube o arquivo para o repositorio remoto.
+
+git reflog - comando para ver as versões de código.
+git reset --hard id da versão - comando para acessar versões anteriores ou retornar para vesão mai recente.
+git branch - comando para verificar quais branchs existem no repositorio.
+git branch nomeDaNovaBranch (staging)- comando para criara nova branch.
+git checkout nomeDabranch- comando para acessar a branch.
+git push --set-upstream origin nomeDaBranch- comando para subir a nova branch no github.
+git merge nomeDabranch - esse comando deve se feito estando na branch main(ou a principal a estavel).
+*alerta!!! sempre tenha certeza que esta na versão atual da sua branch (faça um git pull se necessário). 
+git checkout -b nomeDaNovaBranch main(branch principal) - comando para se criar uma branch com as informações da branch principal
+git gnore -status
