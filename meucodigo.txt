@@ -11,4 +11,6 @@ git push --set-upstream origin nomeDaBranch- comando para subir a nova branch no
 git merge nomeDabranch - esse comando deve se feito estando na branch main(ou a principal a estavel).
 *alerta!!! sempre tenha certeza que esta na versão atual da sua branch (faça um git pull se necessário). 
 git checkout -b nomeDaNovaBranch main(branch principal) - comando para se criar uma branch com as informações da branch principal
-git gnore -status
+touch .gitgnore -comando para criar um arquivo gitgnore
+dentro do gitgnore escrevo o nome do arquivo que eu não quero que seja adicionado na versão.
+quando criar gitgnore fazer o git add . , commitar -m"adicionando arquivo gitgnore" e fazer o push.
