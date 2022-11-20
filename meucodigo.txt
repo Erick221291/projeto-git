@@ -7,6 +7,7 @@ git reset --hard id da versão - comando para acessar versões anteriores ou ret
 git branch - comando para verificar quais branchs existem no repositorio.
 git branch nomeDaNovaBranch (staging)- comando para criara nova branch.
 git checkout nomeDabranch- comando para acessar a branch.
+git checout mais id do commit - esse comando retorna para versão escolhida.
 git push --set-upstream origin nomeDaBranch- comando para subir a nova branch no github.
 git merge nomeDabranch - esse comando deve se feito estando na branch main(ou a principal a estavel).
 *alerta!!! sempre tenha certeza que esta na versão atual da sua branch (faça um git pull se necessário). 
@@ -14,3 +15,7 @@ git checkout -b nomeDaNovaBranch main(branch principal) - comando para se criar 
 touch .gitgnore -comando para criar um arquivo gitgnore
 dentro do gitgnore escrevo o nome do arquivo que eu não quero que seja adicionado na versão.
 quando criar gitgnore fazer o git add . , commitar -m"adicionando arquivo gitgnore" e fazer o push.
+git log --online -esse comando mostra as commits da branch atual.
+git log --all --online - esse comando mostra os commits de todas branchs existentes
+git log --all --online --graph -- esse comando mostra interligações dos commit com seu ramo.
+
