@@ -1,8 +1,9 @@
 Olá, revisão git.
 criei um repositorio no github, e configurei o git no meu repositorio local,
 e sube o arquivo para o repositorio remoto.
-
-git reflog - comando para ver as versões de código.
+git log - comando para ver os commits.
+git reflog - comando para ver as versões de código com o id resumido.
+**para sair do git log, git reflog apertar a tecla "q".
 git reset --hard id da versão - comando para acessar versões anteriores ou retornar para vesão mai recente.
 git branch - comando para verificar quais branchs existem no repositorio.
 git branch nomeDaNovaBranch (staging)- comando para criara nova branch.
@@ -19,4 +20,8 @@ git log --online -esse comando mostra as commits da branch atual.
 git log --all --online - esse comando mostra os commits de todas branchs existentes
 git log --all --online --graph -- esse comando mostra interligações dos commit com seu ramo.
 git branch -d nomeDaBranch -comando para deletar uma branch.
+git reset --hard id do commit de retorno - comando para retornar para uma versão 
+na sequencia fazer git push --force - assim será deletado o commit anterior ao comando.
+
+
 
