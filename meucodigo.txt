@@ -18,4 +18,5 @@ quando criar gitgnore fazer o git add . , commitar -m"adicionando arquivo gitgno
 git log --online -esse comando mostra as commits da branch atual.
 git log --all --online - esse comando mostra os commits de todas branchs existentes
 git log --all --online --graph -- esse comando mostra interligações dos commit com seu ramo.
+git branch -d nomeDaBranch -comando para deletar uma branch.
 
